@@ -12,7 +12,7 @@ describe('Tail',() =>{
     it('list is Empty case',()=>{
         expect(functions.tail([])).toBeNull();
     });
-    it('show Tail',()=>{
+    it('show Tail-> other than head',()=>{
         expect(functions.tail([69,8,9,6])).toEqual([8,9,6]);
     });
 describe('Maximum',()=>{
