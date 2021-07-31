@@ -10,6 +10,7 @@ const funtions = {
         else {
             arr.shift();
             return arr;
+            //Array.shift() gives 1st element and removes it from Array 
         }
     },
     max: function (arr) {
